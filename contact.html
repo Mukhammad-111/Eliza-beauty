@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eliza Beauty — Контакты</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html" aria-label="Eliza Beauty">Eliza Beauty</a>
+
+      <nav class="nav" aria-label="Навигация">
+        <a class="nav-link" href="index.html">Главная</a>
+        <a class="nav-link" href="about.html">О нас</a>
+        <a class="nav-link" href="services.html">Услуги</a>
+        <a class="nav-link" href="gallery.html">Галерея</a>
+        <a class="nav-link active" href="contact.html" aria-current="page">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h1 class="page-title">Контакты</h1>
+          <p class="section-subtitle">
+            Напишите нам — мы ответим и поможем записаться на удобное время.
+          </p>
+        </div>
+
+        <div class="contact-split">
+          <div class="contact-info card card-pad">
+            <h2 class="card-title">Как нас найти</h2>
+            <ul class="contact-list">
+              <li><span class="contact-label">Адрес:</span> г. Бишкек, ул. Киевская 123</li>
+              <li><span class="contact-label">Телефон:</span> <a href="tel:+996700123456">+996 222938968</a></li>
+              <li><span class="contact-label">Email:</span> <a href="mailto:eliza@beauty.com">eliza@beauty.com</a></li>
+            </ul>
+
+            <div class="note">
+              Мы работаем по записи. Чтобы не ждать, лучше написать через форму.
+            </div>
+          </div>
+
+          <div class="contact-form card card-pad">
+            <h2 class="card-title">Форма обратной связи</h2>
+            <form id="contactForm" action="#" method="post">
+              <label class="field">
+                <span class="field-label">Имя</span>
+                <input class="input" type="text" name="name" placeholder="Введите ваше имя" required />
+              </label>
+
+              <label class="field">
+                <span class="field-label">Email</span>
+                <input class="input" type="email" name="email" placeholder="example@mail.com" required />
+              </label>
+
+              <label class="field">
+                <span class="field-label">Сообщение</span>
+                <textarea class="input textarea" name="message" rows="5" placeholder="Напишите ваш вопрос или пожелание" required></textarea>
+              </label>
+
+              <button class="btn" type="submit">Отправить</button>
+              <p class="form-hint">Нажимая «Отправить», вы соглашаетесь на обработку сообщения.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Eliza Beauty. Все права защищены.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
